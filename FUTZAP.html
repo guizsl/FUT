@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>FUTEBOL ZAPAO</title>
+  <link rel="stylesheet" type="text/css" href="index.css">
+  <style>
+    body {
+      background-image: url("mancha.jpg");
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center center;
+      margin: 0;
+      padding: 0;
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      color: #fff;
+    }
+
+    .container {
+      background-color: rgba(0, 236, 0, 0.7);
+      padding: 20px;
+      border-radius: 5px;
+    }
+
+    h1 {
+      text-align: center;
+    }
+
+    form {
+      margin-top: 20px;
+      text-align: center;
+    }
+
+    ul {
+      margin-top: 20px;
+    }
+
+    li {
+      margin-bottom: 10px;
+    }
+  </style>
+</head>
+<body>
+  <h1>FUTEBOL ZAPAO</h1>
+  
+  <div class="container">
+    <img id="mancha verde" src="./images.png" alt="Mancha Verde">
+  
+    <form>
+      <label for="nome">Nome:</label><br>
+      <input type="text" id="nome" name="nome"><br><br>
+    
+      <label for="participar">Deseja participar?</label><br>
+      <input type="radio" id="sim" name="participar" value="sim">
+      <label for="sim">Sim</label><br>
+      <input type="radio" id="nao" name="participar" value="nao">
+      <label for="nao">Sou virgem</label><br><br>
+    
+      <input type="submit" value="Enviar">
+    </form>
+  
+    <p>Info sobre o futebol:</p>
+    <ul>
+      <li>Valor: R$23,00 para cada pessoa</li>
+      <li>Data: Domingo (data a definir)</li>
+      <li>Local: Gambas da Nazare</li>
+    </ul>
+  </div>
+</body>
+</html>
